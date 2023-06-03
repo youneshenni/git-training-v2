@@ -1,4 +1,3 @@
-const x = [];
-sum = y.reduce((a, b) => {
+function soustraction(a, b) {
   return a - b;
-});
+}
