@@ -1,8 +1,3 @@
-const y = [];
-sum = y.reduce((a, b) => {
-  if ((b = 0)) {
-    console.log(`indefined result`);
-    return false;
-  }
+function division(a, b) {
   return a / b;
-});
+}
