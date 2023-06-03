@@ -1,3 +1,7 @@
 function division(a, b) {
-  return a / b;
+  if ((b = 0)) {
+    console.log("entrer un nombre different de zéro");
+  } else {
+    return a / b;
+  }
 }
