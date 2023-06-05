@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Calculator</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <h1>Welcome to My calculator.com</h1>
-    <form id="form1">
-      <label for="num1">Numero 1:<input type="number" id="input1" /></label>
-      <div>
-        <label for="operation"
-          >Operation:<select id="eu">
-            <option>select</option>
-            <option value="addition">+</option>
-            <option value="soustraction">-</option>
-            <option value="multiplication">*</option>
-            <option value="division">/</option>
-          </select></label
-        >
-      </div>
-      <label for="num2">Numero 2:<input type="number" id="input2" /></label>
-      <button type="button" id="but">Result</button><br /><br />
-      <h1>Le Resultat est :</h1>
-      <textarea id="texta"></textarea>
-    </form>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Calculator</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"></script>
+  <script src="calsou.js"></script>
+  <script src="caldivi.js"></script>
+</head>
+
+<body>
+  <h1>Welcome to My calculator.com</h1>
+  <form id="form1">
+    <label for="num1">Numero 1:<input type="number" id="input1" /></label>
+    <div>
+      <label for="operation">Operation:<select id="eu">
+          <option>select</option>
+          <option value="addition">+</option>
+          <option value="soustraction">-</option>
+          <option value="multiplication">*</option>
+          <option value="division">/</option>
+        </select></label>
+    </div>
+    <label for="num2">Numero 2:<input type="number" id="input2" /></label>
+    <button type="button" id="but">Result</button><br /><br />
+    <h1>Le Resultat est :</h1>
+    <textarea id="texta"></textarea>
+  </form>
+</body>
+<script src="manipulation.js"></script>
+
 </html>
